@@ -1,0 +1,34 @@
+.titleBox {
+  text-align: center;
+  border: 5px solid blue;
+  margin-left: 30%;
+  margin-right: 30%;
+  }
+
+  .centerBox {
+    border: solid gray;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .passwordBox {
+    font-size: 200%;
+    text-align: center;
+    border: solid blue;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 40px;
+    }
+
+    .error{
+      font-size:200%;
+      text-align: center;
+      color: red;
+    }
+
+    .centerIMG {
+      display: block;
+    margin-left: auto;
+    margin-right: auto }
+    }
