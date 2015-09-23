@@ -4,7 +4,7 @@ $maxNumOfWords = 10;
 $outString = " ";
 $numbersArray = array("1","2","3","4","5","6","7","8","9", "0");
 $symbolsArray = array("!", "@", "#", "$", "%", "^", "&", "*", "(", ")" );
-
+$num ="";
 
 //Array Create.
 if($fileHandler = fopen("dictionary.txt", "r")) {
@@ -46,8 +46,7 @@ if (isset($_POST["numOfWords"]) && !empty($_POST["numOfWords"]))
        $outString .= $symb;
      }
 
-     if (isset($_POST["capital"])) {
-       $outString = ucfirst($outString);
-     }
+     
+
 }
  ?>

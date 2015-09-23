@@ -3,7 +3,7 @@
 
 <html>
   <head>
-    <meta charset="utf-8">
+
     <link rel="stylesheet" type="text/css" href="externalstyle.css">
 
 
@@ -19,7 +19,7 @@
   Number of Words max(<?php echo $maxNumOfWords ?>): <input type="text" name="numOfWords"> <br>
   Add a Number: <input type="checkbox" name="number"> <br>
   Add a Symbol: <input type="checkbox" name="symbol"> <br>
-  First Letter to Capital: <input type="checkbox" name="capital"> <br>
+
   <input type="submit" >
 
 </form>
