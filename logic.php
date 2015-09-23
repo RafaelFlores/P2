@@ -43,10 +43,5 @@ if (isset($_POST["numOfWords"]) && !empty($_POST["numOfWords"]))
      if (isset($_POST["capital"])) {
        $outString = ucfirst($outString);
      }
-     echo $outString;
 }
-
-
-
-
  ?>
